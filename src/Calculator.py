@@ -1,3 +1,14 @@
+def addition (a, b):
+    return a + b
+
+def subtraction (a, b):
+    return a - b
+
+def multiplication (a, b):
+    return a * b
+
+def division (a, b):
+    return a / b
 
 
 class Calculator:
@@ -9,6 +20,7 @@ class Calculator:
         pass
 
     def add(self, a, b):
-        c = a + b
-        return c
+        self.result = a + b
+        return addition(a, b)
+
 
