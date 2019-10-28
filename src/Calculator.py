@@ -29,4 +29,6 @@ class Calculator:
         self.result = subtraction(a, b)
         return self.result
 
-
+    def multipy(self, a, b):
+        self.result = multiplication(a, b)
+        return self.result
