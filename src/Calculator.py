@@ -13,6 +13,10 @@ def division (a, b):
 def squared (a):
     return a ** 2
 
+def sqrt (a):
+    return a ** 0.5
+
+
 class Calculator:
     result = 0
 
@@ -39,4 +43,8 @@ class Calculator:
 
     def squared(self, a, ):
         self.result = squared(a)
+        return self.result
+
+    def sqrt(self, a, ):
+        self.result = sqrt(a)
         return self.result
