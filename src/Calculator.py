@@ -38,6 +38,8 @@ class Calculator:
         return self.result
 
     def multiply(self, a, b):
+        a = float(a)
+        b = float(b)
         self.result = multiplication(a, b)
         return self.result
 
