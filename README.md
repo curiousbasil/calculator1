@@ -12,4 +12,5 @@ Thursday the 1st of Nov, 2019 11:59pm
 
 [Link to CSV Files](/CSVFiles)
 
+[![Build Status](https://travis-ci.com/curiousbasil/statscalc1.svg?branch=master)](https://travis-ci.com/curiousbasil/statscalc1)
 ---
