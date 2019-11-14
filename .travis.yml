@@ -5,7 +5,7 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - python unittest Tests
+  - python CalculatorTests.py
 
 branches:
   only:
